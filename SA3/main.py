@@ -83,8 +83,16 @@ while True:
 
                     # Create dx, dy variables to position each filter
 
-                    # Check if menuchoice is 0,1,2,3,4 and set the variables scale, dx, dy
-
+                    if(menuChoice == 0):
+                        scale = 90
+                        dx = 5
+                        dy = 40
+                    if(menuChoice == 1):
+                        scale = 85
+                        dx = 5
+                        dy = 80
+                    # Check if menuchoice is 2,3,4 and set the variables scale, dx, dy
+                        
                     resizefactor = dist/scale
 
                     # Calculate the xLoc and Yloc based on resizeFactor and dx,dy.
